@@ -1,6 +1,7 @@
 //elements
 const clear = document.querySelector(".clear");
 const add = document.querySelector(".add");
+const button = document.querySelector(".button");
 
 const dateElement = document.getElementById("date");
 const list = document.getElementById("list");
@@ -79,6 +80,8 @@ function addToDo(toDo, id, done, trash) {
         }
     });
 
+//
+
 //using fa-plus icon 
 add.addEventListener("click", function(event) {
     if(input.length > 3) {
@@ -115,8 +118,12 @@ list.addEventListener("click", function(event) {
     });
 
 
-
-
+// fa-plus circle toggling
+$(document).ready(function() {
+    $("#add").click(function() {
+      $("#form").toggle();
+    });
+  });
 
 
 
