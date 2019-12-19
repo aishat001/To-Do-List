@@ -119,11 +119,7 @@ list.addEventListener("click", function(event) {
 
 
 // fa-plus circle toggling
-$(document).ready(function() {
-    $("#add").click(function() {
-      $("#form").toggle();
-    });
-  });
+
 
 
 
