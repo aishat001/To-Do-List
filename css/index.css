@@ -10,8 +10,7 @@ body {
     margin-left: auto;
     margin-top: 7vmin;
     border-radius: 5vmin;
-    box-shadow: 1px 1px 50px rgb(223, 221, 221),
-                -1px -1px 60px rgb(181, 181, 181);
+     box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
   }
   .dayinaweek {
     height: 20%;
@@ -79,7 +78,7 @@ body {
   }
   ul {
     padding: 2vmin;
-    margin: 0px;;
+    margin: 0px;
   }
   .item {
     display: flex;
@@ -139,6 +138,9 @@ body {
   }
   li {
     border-bottom: .5vmin solid #dfdfdf;
+    box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(255, 255, 255, 0.2), 0 5px 15px rgba(0,0,0,.12);
+    margin: 5px;
+    padding: 1vmin;
   }
   .react {
     font-size: smaller;
